@@ -1,0 +1,61 @@
+/* General styles for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none; /* Removes bullet points */
+}
+
+header nav ul li {
+    display: inline; /* Makes list items appear in a line */
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none; /* Removes underline from links */
+    font-size: 1.1rem;
+}
+
+/* Main content sections */
+main {
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto; /* Centers the content */
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Adds rounded corners */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #35424a;
+    color: #ffffff;
+    margin-top: 20px;
+}
